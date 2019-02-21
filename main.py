@@ -78,8 +78,7 @@ def train():
             # if len(buffer_replay) <= 20000:
             #     action = [np.random.uniform(-1,1,action_size)]
             # else:
-            env.render()
-            action = actor.predict([state]) #+ 1.0/(1.0 + 0.005*episode)*noise.sample()
+            action = actor.predict([state]) + 1.0/(1.0 + 0.005*episode)*noise.sample()
             obs, rew, done, _ = env.step(action[0])
             buffer_replay.append((state, action[0], rew, obs, done))
             state = obs
