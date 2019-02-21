@@ -1,0 +1,68 @@
+\documentclass[11pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{mathtools}
+%\usepackage[leqno]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{fancyvrb}
+%\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+%\usepackage{tikz}
+%\usetikzlibrary{shapes,arrows}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+
+% Giuseppe L'Erario
+
+\author{Giuseppe L'Erario}
+\date{}
+\title{DDPG for cheetah}
+\subject{Reinforcement learning}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\clearpage
+
+\section{Introduction}
+
+Reinforcement learning is a group of algorithm that take as inspiration the evolution and the learning in the natural world. It means that it is based on a trial and error logic. In particular the goal is to build an agent that learns how to act in a specific environment on the base of the reward it receives during the process.
+
+\textbf{Some stories on the algorithms}...
+
+These algorithms have as output a set of discrete actions. It is simple to imagine that, as the output space grows, the problem became intractable. In particular we have to associate to a state thousands of possible discrete actions. And, as one can expect, the possible state are thousands too!
+
+A solution to this problem (course of dimensionality?) is developed by deep mind in the paper (cite paper). 
+
+The paper takes the origin from the Deterministic Policy gradient algorithm, improved with techniques coming from the deep learning. 
+
+\section{The state of the art}
+
+\section{The algorithm}
+The Deep Deterministic Policy Gradient algorithm uses an actor-critic approach. It is an off policy rl algorithm. It uses the Bellman equation to learn the Q-function and this Q-function to learn the policy.
+
+
+
+
+\section{Results}
+
+\section{Conclusions}
+
+\end{document}

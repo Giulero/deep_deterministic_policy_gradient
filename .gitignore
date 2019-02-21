@@ -1,0 +1,4 @@
+mujoco_py/
+networks_hopper/
+__pycache__/
+stats_hopper/
