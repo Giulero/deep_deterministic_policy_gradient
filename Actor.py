@@ -2,7 +2,9 @@ import tensorflow as tf
 
 class Actor():
     def __init__(self, act_size, state_size, batch_size, sess):
-        
+        '''hidden layer size: 400x300
+           learning rate: 0.0001
+           tau (soft target update constant): 0.001'''
         self.input_size = state_size
         self.output_size = act_size
         self.sess = sess
@@ -20,6 +22,7 @@ class Actor():
         self.W_3 = tf.Variable(tf.truncated_normal([300, self.output_size],stddev=0.003))
         self.b_3 = tf.Variable(tf.zeros(self.output_size))
 
+        # store the parameters of the actor (for compute the gradient)
         self.network_params = tf.trainable_variables()
 
         self.out_1 = tf.nn.relu(tf.matmul(self.input, self.W_1) + self.b_1)
@@ -42,20 +45,19 @@ class Actor():
         self.out_2_t = tf.nn.relu(tf.matmul(self.out_1_t, self.W_2_t) + self.b_2_t)
         self.out_t = tf.nn.tanh(tf.matmul(self.out_2_t, self.W_3_t) + self.b_3_t)
         
-        # update the weights
+        # update the target network weights
         self.update_target_network_params = \
             [self.target_network_params[i].assign(tf.multiply(self.network_params[i], 0.001) +
                                                   tf.multiply(self.target_network_params[i], 1. - 0.001))
                 for i in range(len(self.target_network_params))]
 
-        # gradients
+        #  compute the actor gradients
         self.action_grad = tf.placeholder(tf.float32, [None, self.output_size])
-        # self.actor_grads = tf.gradients(self.out,self.network_params,-self.action_grad)
 
         self.unnormalized_actor_gradients = tf.gradients(self.out, self.network_params, -self.action_grad)
         self.actor_grads = list(map(lambda x: tf.div(x, self.batch_size), self.unnormalized_actor_gradients))
 
-        #per la backprop
+        # apply the gradient
         self.optimize = tf.train.AdamOptimizer(0.0001).apply_gradients(zip(self.actor_grads, self.network_params))
 
         self.num_trainable_vars = len(self.network_params) + len(self.target_network_params)

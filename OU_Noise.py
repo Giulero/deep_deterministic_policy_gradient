@@ -2,6 +2,7 @@ import numpy as np
 import random
 
 class OU_Noise(object):
+    '''produces a noise that has an inertia'''
 
     def __init__(self, action_dim, mu = 0, theta = 0.15, sigma = 0.3):
         self.dim = action_dim

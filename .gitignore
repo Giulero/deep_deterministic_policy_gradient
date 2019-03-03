@@ -2,3 +2,17 @@ mujoco_py/
 networks_hopper/
 __pycache__/
 stats_hopper/
+stats/
+stats_cheetah_1/
+stats_cheetah_2/
+cheetah_rew1.png
+cheetah_rew2.png
+Report/images/
+Report/images/Report.aux
+Report/images/Report.bbl
+Report/images/Report.blg
+Report/images/Report.log
+Report/images/Report.out
+Report/images/Report.synctex.gz
+Report/images/Report.toc
+

@@ -2,6 +2,10 @@ import tensorflow as tf
 
 class Critic():
     def __init__(self, act_size, state_size, num_act_vars, sess):
+        '''hidden layer size: 400x300
+        learning rate: 0.001
+        tau (soft target update constant): 0.001'''
+
         self.input_size = state_size
         self.act_size = act_size
         self.sess = sess
@@ -25,9 +29,11 @@ class Critic():
 
 
         self.out_1 = tf.nn.relu(tf.matmul(self.input, self.W_1) + self.b_1)
+        # the actions are embedded before the second hidden layer
         self.out_2 = tf.nn.relu(tf.matmul(self.out_1,self.W_3) + tf.matmul(self.action, self.W_2) + self.b_2)
         self.out = tf.matmul(self.out_2, self.W_4) + self.b_4
 
+        # store the parameters (for compute the gradient)
         self.network_params = tf.trainable_variables()[num_act_vars:]
 
         # create target critic net
@@ -50,7 +56,7 @@ class Critic():
 
         self.target_network_params = tf.trainable_variables()[(len(self.network_params) + num_act_vars):]
 
-        # update target net
+        # update target net weights
         self.update_target_network_params = \
             [self.target_network_params[i].assign(tf.multiply(self.network_params[i], 0.001) +
                                                   tf.multiply(self.target_network_params[i], 1. - 0.001))
