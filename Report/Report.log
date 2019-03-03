@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.17)  20 FEB 2019 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.17)  3 MAR 2019 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -37,17 +37,17 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 136.
-Package scrartcl Info: You've used standard option `11pt'.
+Package scrartcl Info: You've used standard option `10pt'.
 (scrartcl)             This is correct!
-(scrartcl)             Internally I'm using `fontsize=11pt'.
+(scrartcl)             Internally I'm using `fontsize=10pt'.
 (scrartcl)             If you'd like to set the option with \KOMAoptions,
-(scrartcl)             you'd have to use `fontsize=11pt' there
-(scrartcl)             instead of `11pt', too.
-Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
+(scrartcl)             you'd have to use `fontsize=10pt' there
+(scrartcl)             instead of `10pt', too.
+Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input l
 ine 2080.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2017/09/07 v3.24 KOMA-Script font size class option (11pt
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
+File: scrsize10pt.clo 2017/09/07 v3.24 KOMA-Script font size class option (10pt
 )
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -65,21 +65,21 @@ Package typearea Info: You've used standard option `a4paper'.
 \ta@temp=\skip45
 \footheight=\skip46
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 8
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIV departure   = -4%
+(typearea)              \evensidemargin = 39.76274pt
+(typearea)              \oddsidemargin  = 39.76274pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
+(typearea)              \textheight     = 538.0pt
+(typearea)              \topmargin      = 0.36087pt
+(typearea)              \headheight     = 15.0pt
+(typearea)              \headsep        = 18.0pt
+(typearea)              \topskip        = 10.0pt
+(typearea)              \footskip       = 42.0pt
+(typearea)              \baselineskip   = 12.0pt
 (typearea)              on input line 1686.
 )
 \c@part=\count80
@@ -959,11 +959,13 @@ LaTeX Info: Redefining \nameref on input line 37.
 \openout4 = `Report.out'.
 
 \c@lstlisting=\count153
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmss' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+ (./Frontespizio.tex
+<images/SapienzaLogo.pdf, id=24, 284.52731pt x 85.33737pt>
+File: images/SapienzaLogo.pdf Graphic file (type pdf)
+<use images/SapienzaLogo.pdf>
+Package pdftex.def Info: images/SapienzaLogo.pdf  used on input line 3.
+(pdftex.def)             Requested size: 227.62215pt x 68.26997pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -971,54 +973,121 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Package tocbasic Info: character protrusion at toc deactivated on input line 40
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/SapienzaLogo.pdf>
+])
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package tocbasic Info: character protrusion at toc deactivated on input line 42
 .
- (./Report.toc)
+
+(./Report.toc)
 \tf@toc=\write5
 \openout5 = `Report.toc'.
 
-
-[1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
  [2
 
+
+
+
+
+
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+<images/rl.png, id=47, 911.405pt x 351.3125pt>
+File: images/rl.png Graphic file (type png)
+<use images/rl.png>
+Package pdftex.def Info: images/rl.png  used on input line 54.
+(pdftex.def)             Requested size: 261.40857pt x 100.763pt.
+ [3
+
+ <./images/rl.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+ [4] [5]
+<images/algo.png, id=92, 1405.25pt x 1021.8175pt>
+File: images/algo.png Graphic file (type png)
+<use images/algo.png>
+Package pdftex.def Info: images/algo.png  used on input line 156.
+(pdftex.def)             Requested size: 298.7551pt x 217.23859pt.
+<images/cheetah.png, id=93, 760.8425pt x 648.4225pt>
+File: images/cheetah.png Graphic file (type png)
+<use images/cheetah.png>
+Package pdftex.def Info: images/cheetah.png  used on input line 166.
+(pdftex.def)             Requested size: 186.72122pt x 159.12709pt.
+ [6 <./images/algo.png (PNG copy)>]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<images/cheetah_rew1.png, id=104, 1506.62875pt x 496.85625pt>
+File: images/cheetah_rew1.png Graphic file (type png)
+<use images/cheetah_rew1.png>
+Package pdftex.def Info: images/cheetah_rew1.png  used on input line 189.
+(pdftex.def)             Requested size: 373.44246pt x 123.15236pt.
+ [7 <./images/cheetah.png>]
+<images/cheetah_rew2.png, id=113, 1504.62125pt x 449.68pt>
+File: images/cheetah_rew2.png Graphic file (type png)
+<use images/cheetah_rew2.png>
+Package pdftex.def Info: images/cheetah_rew2.png  used on input line 195.
+(pdftex.def)             Requested size: 373.44246pt x 111.61005pt.
+ [8 <./images/cheetah_rew1.png> <./images/cheetah_rew2.png>] [9] (./Report.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
+ [10
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
  (./Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: E33DEEE4668F7E6EE1E379839BA77D3C;238.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
+(rerunfilecheck)             Checksum: 20578684EC03777102A39A223C57B368;280.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
  ) 
 Here is how much of TeX's memory you used:
- 15108 strings out of 492982
- 237880 string characters out of 6134895
- 464718 words of memory out of 5000000
- 18454 multiletter control sequences out of 15000+600000
- 8930 words of font info for 43 fonts, out of 8000000 for 9000
+ 15362 strings out of 492982
+ 241242 string characters out of 6134895
+ 467327 words of memory out of 5000000
+ 18567 multiletter control sequences out of 15000+600000
+ 15332 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,51p,8844b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,51p,8844b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Report.pdf (2 pages, 63040 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Report.pdf (10 pages, 818772 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 9769 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 21063 words of extra memory for PDF output out of 24883 (max. 10000000)
 

@@ -1,6 +1,6 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
-\contentsline {section}{\numberline {2}The state of the art}{2}{section.2}
-\contentsline {section}{\numberline {3}The algorithm}{2}{section.3}
-\contentsline {section}{\numberline {4}Results}{2}{section.4}
-\contentsline {section}{\numberline {5}Conclusions}{2}{section.5}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}The state of the art up to DDPG algorithm}{3}{section.2}
+\contentsline {section}{\numberline {3}Deep Deterministic Policy Gradient}{4}{section.3}
+\contentsline {section}{\numberline {4}Results}{7}{section.4}
+\contentsline {section}{\numberline {5}Conclusions}{8}{section.5}

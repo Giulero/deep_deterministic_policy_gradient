@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{lillicrap2015continuous}
+T.~P. Lillicrap, J.~J. Hunt, A.~Pritzel, N.~Heess, T.~Erez, Y.~Tassa,
+  D.~Silver, and D.~Wierstra, ``Continuous control with deep reinforcement
+  learning,'' {\em arXiv preprint arXiv:1509.02971}, 2015.
+
+\bibitem{Mnih2013PlayingAW}
+V.~Mnih, K.~Kavukcuoglu, D.~Silver, A.~Graves, I.~Antonoglou, D.~Wierstra, and
+  M.~A. Riedmiller, ``Playing atari with deep reinforcement learning,'' {\em
+  CoRR}, vol.~abs/1312.5602, 2013.
+
+\bibitem{mnih2015humanlevel}
+V.~Mnih, K.~Kavukcuoglu, D.~Silver, A.~A. Rusu, J.~Veness, M.~G. Bellemare,
+  A.~Graves, M.~Riedmiller, A.~K. Fidjeland, G.~Ostrovski, S.~Petersen,
+  C.~Beattie, A.~Sadik, I.~Antonoglou, H.~King, D.~Kumaran, D.~Wierstra,
+  S.~Legg, and D.~Hassabis, ``Human-level control through deep reinforcement
+  learning,'' {\em Nature}, vol.~518, pp.~529--533, Feb. 2015.
+
+\bibitem{silver2014deterministic}
+D.~Silver, G.~Lever, N.~Heess, T.~Degris, D.~Wierstra, and M.~Riedmiller,
+  ``Deterministic policy gradient algorithms,'' in {\em ICML}, 2014.
+
+\bibitem{pmlr-v48-mniha16}
+V.~Mnih, A.~P. Badia, M.~Mirza, A.~Graves, T.~Lillicrap, T.~Harley, D.~Silver,
+  and K.~Kavukcuoglu, ``Asynchronous methods for deep reinforcement learning,''
+  in {\em Proceedings of The 33rd International Conference on Machine Learning}
+  (M.~F. Balcan and K.~Q. Weinberger, eds.), vol.~48 of {\em Proceedings of
+  Machine Learning Research}, (New York, New York, USA), pp.~1928--1937, PMLR,
+  20--22 Jun 2016.
+
+\bibitem{pmlr-v37-schulman15}
+J.~Schulman, S.~Levine, P.~Abbeel, M.~Jordan, and P.~Moritz, ``Trust region
+  policy optimization,'' in {\em Proceedings of the 32nd International
+  Conference on Machine Learning} (F.~Bach and D.~Blei, eds.), vol.~37 of {\em
+  Proceedings of Machine Learning Research}, (Lille, France), pp.~1889--1897,
+  PMLR, 07--09 Jul 2015.
+
+\bibitem{DDPG_pemami}
+P.~Emami, ``Deep deterministic policy gradients in tensorflow.''
+
+\bibitem{Simonini}
+T.~Simonini, ``An introduction to policy gradients with cartpole and doom.''
+
+\bibitem{Ben_Lau}
+B.~Lau, ``Using keras and deep deterministic policy gradient to play torcs.''
+
+\end{thebibliography}
